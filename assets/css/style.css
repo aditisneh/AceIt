@@ -508,26 +508,26 @@ header .btn-group {
 footer { background: var(--background-primary); }
 
 footer .container {
-  padding: var(--py) 15px;
+  padding: var(--py) 5px;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  gap: 5px;
 }
 
 footer .wrapper { text-align: center; }
 
-.footer-logo { margin-bottom: 10px; }
+.footer-logo { margin-bottom: -10px; }
 
 .footer-text {
   color: var(--foreground-secondary);
   max-width: 300px;
-  margin-inline: auto;
-  margin: auto; /* fallback for margin-inline */
+  /* margin-inline: auto; */
+  margin: auto;/* fallback for margin-inline */
 }
 
 .footer-title {
   color: var(--foreground-primary);
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 0.4rem;
 }
 
